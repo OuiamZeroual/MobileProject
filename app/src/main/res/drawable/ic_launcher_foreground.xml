@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Manette stylisée -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,44 C26,44 20,50 20,58 L20,66 C20,72 24,76 30,76 C34,76 37,74 39,71 L44,64 L64,64 L69,71 C71,74 74,76 78,76 C84,76 88,72 88,66 L88,58 C88,50 82,44 74,44 Z"/>
+
+    <!-- Croix directionnelle (blanche/transparente) -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M29,54 L35,54 L35,50 L40,50 L40,54 L46,54 L46,59 L40,59 L40,63 L35,63 L35,59 L29,59 Z"/>
+
+    <!-- Boutons circulaires (côté droit) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M76,52 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"/>
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M70,58 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"/>
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M82,58 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"/>
+    <path
+        android:fillColor="#22D3EE"
+        android:pathData="M76,64 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"/>
+</vector>

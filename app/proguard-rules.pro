@@ -1,0 +1,4 @@
+-keepattributes *Annotation*, InnerClasses
+-keep,includedescriptorclasses class com.pairplay.**$$serializer { *; }
+-keepclassmembers class com.pairplay.** { *** Companion; }
+-keepclasseswithmembers class com.pairplay.** { kotlinx.serialization.KSerializer serializer(...); }
