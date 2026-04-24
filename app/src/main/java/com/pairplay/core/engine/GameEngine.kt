@@ -65,8 +65,8 @@ class GameEngine(
             gateway.connectionEvents.collect { ev ->
                 when (ev) {
                     is ConnectionEvent.Connected -> {
-                        val peer = Player(id = ev.deviceAddress.takeLast(8), name = ev.deviceName)
-                        players[peer.id] = peer
+                        // Ne pas créer d'ID "temporaire" depuis l'adresse Bluetooth :
+                        // l'ID canonique vient ensuite des messages Invite/Accept.
                         _phase.value = GamePhase.Connected(players.values.toList())
                         if (isHost) {
                             // L'hôte envoie une Invite dès la connexion pour initier l'échange d'IDs
